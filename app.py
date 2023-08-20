@@ -3,7 +3,7 @@ import schedule
 import time
 
 def delete_webhook():
-    bot_token = "5835400119:AAG05VIHGiaNvefr3DKF4yd8bTAcZLSyxx4"
+    bot_token = "6416227615:AAG6WpsPt0GgZzzlxIFOj2m9T0aBZ0NTb0I"
     api_url = f"https://api.telegram.org/bot{bot_token}/deleteWebhook"
 
     response = requests.post(api_url)
