@@ -13,7 +13,7 @@ def delete_webhook():
     else:
         print(f"Failed to delete webhook. Status code: {response.status_code}")
 
-schedule.every(0).second.do(delete_webhook)
+schedule.every(1).second.do(delete_webhook)
 
 while True:
     schedule.run_pending()
